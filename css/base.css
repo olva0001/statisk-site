@@ -38,7 +38,7 @@
   --input-focus-border-color: #5aaafa;
   --kbd-color: #343334;
   --kbd-background-color: #f9f9f9;
-  --cat-background-color: #c4faff;
+  --cat-background-color: #4bf0ff;
   --kbd-border-color: #d8d8d8;
   --kbd-border-bottom-color: #a6a5a6;
   --abbr-border-bottom-color: #949394;
@@ -94,6 +94,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.smallProduct:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.08);
 }
 
 /* Typography
@@ -472,6 +477,10 @@ li {
 
 dd {
   margin-left: 1rem;
+}
+
+dl {
+  color: black;
 }
 /* Keyboard
       ––––––––––––––––––––––––––––––––– */

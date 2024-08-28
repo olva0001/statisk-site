@@ -1,12 +1,12 @@
 :root {
-  --off-color: rgb(255, 46, 46);
+  --off-color: rgb(255, 0, 0);
 }
 html {
   scroll-behavior: smooth;
 }
 .mainNav h1 span {
   display: inline-block;
-  color: rgb(29, 116, 0);
+  color: rgb(0, 225, 255);
 }
 .mainNav > * {
   margin: 0;
@@ -66,6 +66,7 @@ html {
   margin: 0;
   font-size: 0.9rem;
 }
+
 .subtle {
   color: var(--text-decoration-color);
 }
@@ -74,14 +75,15 @@ html {
   flex-direction: column;
 }
 .productlist article.soldOut img {
-  opacity: 0.5;
+  opacity: 1;
 }
 .productlist article.soldOut::before {
   content: "Sold Out";
   position: absolute;
-  background: var(--color);
+  background: linear-gradient(to right, rgb(23, 255, 243), rgb(21, 91, 255));
   color: var(--background-color);
   padding: 1rem;
+  opacity: 0.75;
 }
 .productlist article .discounted,
 .productlist article .price span {
