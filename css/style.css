@@ -115,6 +115,11 @@ html {
   display: none;
 }
 
+.largeProduct {
+  width: 50%;
+  height: auto;
+}
+
 .purchaseBox {
   background: #d8d8d8;
   color: var(--background-color);
@@ -153,7 +158,7 @@ dt {
   }
   .purchaseBox {
     order: 2;
-    transform: translate(-50px, -100px);
+    transform: translate(-50px, 0px);
   }
 
   .breadcrumbs {
