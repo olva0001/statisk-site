@@ -28,6 +28,10 @@ html {
   text-decoration: none;
 }
 
+nav a {
+  margin: 10px;
+}
+
 /*Category*/
 .categorylist {
   display: grid;
@@ -40,7 +44,12 @@ html {
   padding: 1.5em;
   color: rgb(47, 47, 47);
   background-color: var(--cat-background-color);
-  box-shadow: 3px 3px 17px 0px rgba(0, 0, 0, 0.75);
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.categorylist a:hover {
+  transition: 0.2s;
+  transform: scale(1.02);
 }
 
 @media screen and (min-width: 800px) {
